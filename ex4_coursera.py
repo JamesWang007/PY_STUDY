@@ -9,5 +9,7 @@ import numpy as np
 
 labels = np.array([1,2,3,0,2,1])
 
+%timeit range(1000)
 
-
+#%%timeit x = range(10000)
+#max(x)
