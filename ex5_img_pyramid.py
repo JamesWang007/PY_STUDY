@@ -80,10 +80,16 @@ for image in images:
     img = Image.open(image)
     img1 = img.resize((50, 50))
     img1.save(img_folder+"/newfolder/" + str(random.randrange(100)) + ".jpg")
+
+
+
+# load images files from a folder one by one w/o knowing the name
+import time
     
-
-
-
+for image in images:
+    img = Image.open(image)
+    img.show()
+    time.sleep(0.5)
 
 
 
