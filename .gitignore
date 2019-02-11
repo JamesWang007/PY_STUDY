@@ -97,3 +97,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+cv/images/2ft.PNG
+cv/images/3ft.png
+cv/images/4ft.png
